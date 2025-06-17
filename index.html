@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adaptive Triathlon UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Welcome Triathlete!</h1>
+
+  <!-- Видео од камерата -->
+  <video id="video" width="720" height="560" autoplay muted></video>
+  <div id="emotion-display">Detecting Emotion...</div>
+
+  <!-- Генерални препораки -->
+  <div id="content-box">
+    <h2>Today's Suggestions</h2>
+    <div id="recommendations">Waiting...</div>
+  </div>
+
+  <!-- Триатлон програма -->
+  <div id="triathlon-section">
+    <h2>🏊‍♂️🚴‍♀️🏃‍♂️ Triathlon Coach</h2>
+    <div id="workout-program"></div>
+    <div id="images-section">
+      <img id="sport-image" src="" alt="Triathlon Activity" width="300" />
+    </div>
+    <div id="motivational-text"></div>
+    <div id="tips-box"></div>
+  </div>
+
+  <!-- Позадинска музика -->
+  <audio id="bg-music" loop>
+    <source src="assets/music/natural.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- face-api.js библиотека + скрипта -->
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>

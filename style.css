@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  transition: background 1s ease, color 1s ease;
+  overflow-x: hidden;
+  background: #f4f4f4;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 20px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #00f, 0 0 30px #0ff;
+  }
+}
+
+#video {
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: all 1s ease;
+}
+
+#emotion-display {
+  font-size: 24px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  transition: all 1s ease;
+}
+
+#content-box {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 1s ease;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 20px;
+  padding: 8px;
+  animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#triathlon-section {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: all 0.8s ease;
+}
+
+#sport-image {
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  transition: all 1s ease;
+}
+
+#motivational-text {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  animation: fadeIn 2s ease;
+}
