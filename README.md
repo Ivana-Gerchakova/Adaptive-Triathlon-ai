@@ -49,5 +49,5 @@ The web application uses `face-api.js` to detect the user’s facial expressions
 
 1. **Clone this repo:**
    ```bash
-   git clone https://github.com/YourUsername/Adaptive-Triathlon-Interface.git
+   git clone https://github.com/Ivana-Gerchakova/Adaptive-Triathlon-Interface.git
 
