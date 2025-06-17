@@ -31,7 +31,7 @@ The web application uses `face-api.js` to detect the user’s facial expressions
 📷 Real-time facial expression detection via webcam  
 🎥 Emotion-based adaptive interface rendering (content, media, and background)
 
-👉 [Watch the Demo Video](https://github.com/Ivana-Gerchakova/Adaptive-Triathlon-ai/raw/main/assets/Demo video.mp4)
+👉 [Watch the Demo Video](https://github.com/Ivana-Gerchakova/Adaptive-Triathlon-ai/raw/main/Demo%20video.mp4)
 
 ### 🖼️ Triathlon-Themed Interface Preview
 
