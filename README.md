@@ -1,6 +1,7 @@
 # Adaptive Triathlon Interface Based on Emotion Detection 🧠💪
 
-This project is developed as part of the course **Advanced Interactive Technologies**. It demonstrates an **adaptive user interface** that responds to real-time **facial emotion detection** using the user's webcam. Based on the detected emotion, the interface dynamically updates its content to motivate and guide triathletes through personalized workouts, tips, and music.
+This project is developed as part of the subject **Advanced Interactive Technologies**. It demonstrates an **adaptive user interface** that responds to real-time **facial emotion detection** using the user's webcam. 
+Based on the detected emotion, the interface dynamically updates its content to motivate and guide triathletes through personalized workouts, tips, and music.
 
 ---
 
